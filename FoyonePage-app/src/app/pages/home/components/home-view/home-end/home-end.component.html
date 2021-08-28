@@ -1,0 +1,10 @@
+<div class="b-final">
+    <h2 class="b-final__title">{{hero?.title}}</h2>
+    <div class="b-final__gallery">
+        <div class="b-final__card" *ngFor="let imagen of hero?.gallery">
+            <div class="b-final__oculto"></div>
+            <a class="b-final__link" href="{{imagen?.link}}">{{imagen?.alt}}</a>
+            <img class="b-final__image" src="{{imagen?.src}}" alt="{{imagen?.alt}}">
+        </div>
+    </div>
+</div>

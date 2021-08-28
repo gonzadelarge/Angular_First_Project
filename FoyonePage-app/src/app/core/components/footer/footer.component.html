@@ -1,0 +1,8 @@
+<footer class="b-footer">
+    <div class="b-footer__icons">
+        <div class="b-footer__iconBox" *ngFor="let rrss of footer?.rrss">
+            <a class="b-footer__link" href="{{rrss.url}}"><span class="{{rrss.icon}} b-footer__icon"></span></a>
+        </div>
+    </div>   
+    <p class="b-footer__title">{{footer?.copyright}}</p>
+</footer>

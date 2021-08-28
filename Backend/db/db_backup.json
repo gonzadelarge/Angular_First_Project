@@ -1,0 +1,220 @@
+{
+  "menu":{
+    "title": "Foyone",
+    "links": [
+      {
+        "name": "Home",
+        "navigate": "/home"
+      },
+      {
+        "name": "Tienda",
+        "navigate": "/tienda"
+      },
+      {
+        "name": "Musica",
+        "navigate": "/musica"
+      },
+      {
+        "name": "About",
+        "navigate": "/about"
+      },
+      {
+        "name": "Contacto",
+        "navigate": "/contacto"
+      }
+    ]
+  },
+  "footer": {
+    "copyright": "All rights reserved @Foyone",
+    "rrss": [
+      {
+        "name": "Twitter",
+        "icon":"icon-twitter",
+        "url": "https://twitter.com/FoyoneS"
+      },
+      {
+        "name": "Instagram",
+        "icon":"icon-instagram",
+        "url": "https://www.instagram.com/foyone/"
+      },
+      {
+        "name": "VisualKode",
+        "icon":"icon-vk",
+        "url": "https://twitter.com/FoyoneS"
+      },
+      {
+        "name": "YouTube",
+        "icon":"icon-youtube",
+        "url": "https://twitter.com/FoyoneS"
+      }
+    ]
+  }, 
+  "home": {
+      "init": {
+        "title": "El Presidente",
+        "description": "Yo no creía en mi, pero encontré la fe",
+        "img": {
+          "src": "https://yt3.ggpht.com/ytc/AKedOLSMBVUbHROb5HLW0l63zemWhy3KJduNBmwHknshgA=s900-c-k-c0x00ffffff-no-rj",
+          "alt": "Logo Foyone"
+        }
+      },
+      "mid": {
+        "gallery": [
+          {
+            "src": "https://www.silbato.net/wp-content/uploads/2017/11/FOYONE-Photo-1-1024x576-900x576.jpg",
+            "alt":"Foyone cantando"
+          },
+          {
+            "src": "https://www.nostromomagazine.es/wp-content/uploads/2021/01/132092567_1089912518088622_4865196895466442772_n.jpg",
+            "alt":"Foyone sonriendo"
+          },
+          {
+            "src": "https://tastethefloor.es/wp-content/uploads/2016/10/Foto-TKM-1.jpg",
+            "alt":"Foyone fumando un puro"
+          },
+          {
+            "src": "https://fleek.25gramos.com/wp-content/uploads/sites/7/2020/12/foyone-teletabis.jpg",
+            "alt":"Foyone comiendo"
+          },
+          {
+            "src": "https://estaticos-cdn.prensaiberica.es/clip/90161e2c-71b7-43c7-97a3-be9de23c1413_16-9-aspect-ratio_default_0.jpg",
+            "alt":"Foyone posando"
+          },
+          {
+            "src": "https://loudcave.es/wp-content/uploads/2021/01/foyone-el-sindrome-anuel-fleek.jpg",
+            "alt":"Foyone sonriendo"
+          }
+        ]
+      },
+      "end": {
+        "title": "Enlaces",
+        "gallery": [
+          {
+            "link": "https://www.youtube.com/watch?v=sdIKn3ZLmXE",
+            "src": "https://pbs.twimg.com/media/ES7Z2HEX0AAqaNV.jpg",
+            "alt":"Concierto Radio 3"
+          },
+          {
+            "link": "https://www.youtube.com/watch?v=RrbMTTCeEWI",
+            "src": "https://cdn.wegow.com/media/artist-media/foyone/foyone-1508231838.-1x1780.jpg",
+            "alt":"Sala el Tren"
+          },
+          {
+            "link": "https://www.youtube.com/watch?v=cDEB_Rb79_s",
+            "src": "https://i.ytimg.com/vi/cDEB_Rb79_s/maxresdefault.jpg",
+            "alt":"El 'Síndrome Anuel'"
+          }
+        ]
+      }
+    },
+  "musica": {
+    "info": {
+      "title": "Música",
+      "img": {
+        "src": "https://www.raponair.com/wp-content/uploads/2017/09/FOYONE-VOLVER.jpg",
+        "alt": "Graffiti"
+      }
+    },
+    "mid":{
+      "gallery": [
+        {
+          "link":"https://foyone.com/disco/foyone-dolares-mentales/",
+          "src": "https://mp3.hhgroups.com/albumes/Foyone-Dolares-mentales-44509_front.jpg",
+          "alt":"Dólares mentales"
+        },
+        {
+          "link":"https://foyone.com/disco/foyone-el-patio/",
+          "src": "https://mp3.hhgroups.com/albumes/Foyone-El-patio-44510_front.jpg",
+          "alt":"El patio"
+        },
+        {
+          "link":"https://foyone.com/disco/foyone-el-mesias/",
+          "src": "https://mp3.hhgroups.com/albumes/Foyone-El-mesias-41445_front.jpg",
+          "alt":"El mesías"
+        },
+        {
+          "link":"https://foyone.com/disco/foyone-la-jaula-de-oro/",
+          "src": "https://mp3.hhgroups.com/albumes/Foyone-La-jaula-de-oro-42619_front.jpg",
+          "alt":"La jaula de Oro"
+        },
+        {
+          "link":"https://foyone.com/disco/foyone-rico-sin-denuncia/",
+          "src": "https://foyone.com/wp-content/uploads/sites/13/2019/10/RICOSINDENUNCIA.jpg",
+          "alt":"Rico sin denuncia"
+        },
+        {
+          "link":"https://foyone.com/disco/foyone-la-cura/",
+          "src": "https://mp3.hhgroups.com/albumes/Foyone-Lacura-52141_front.jpg",
+          "alt":"La cura"
+        },
+        {
+          "link":"https://foyone.com/disco/foyone-elpresidente/",
+          "src": "https://mp3.hhgroups.com/albumes/Foyone-Presidente-53212_front.jpg",
+          "alt":"Presidente"
+        },
+        {
+          "link":"",
+          "src": "https://foyone.com/wp-content/uploads/sites/13/2020/12/portada.jpg",
+          "alt":"Yo no soy Europeo"
+        }
+        ]
+      }
+    },
+  "tienda": {
+    "info":{
+      "title":"Merchandasing",
+      "img": {
+        "src": "https://www.raponair.com/wp-content/uploads/2017/09/FOYONE-VOLVER.jpg",
+        "alt": "Graffiti"
+      }
+    },
+    "coleccion": [
+      {
+        "title":"Foyone PUTX Black",
+        "price":"12",
+        "img":{
+          "src":"https://foyone.com/wp-content/uploads/sites/13/2021/06/camiseta-Foyone-Puta-negra.png",
+          "alt":"Camiseta Negra"
+          },
+        "categoria":"Camiseta",
+        "id":1
+      },
+      {"title":"Foyone PUTX Black","price":"23","img":{"src":"https://foyone.com/wp-content/uploads/sites/13/2021/06/camiseta-Foyone-Puta-blanca-300x300.png","alt":"Camiseta Blanca"},"categoria":"Camiseta","id":2
+      },
+      {"title":"Foyone devorando a su hijo","price":"30","img":{"src":"https://foyone.com/wp-content/uploads/sites/13/2021/01/Lamina-foyone-300x300.png","alt":"Lámina Foyone devorando a su hijo"},"categoria":"Accesorio","id":3
+      },
+      {"title":"SUDADERA YO NO SOY EUROPEO","price":"15","img":{"src":"https://foyone.com/wp-content/uploads/sites/13/2020/12/sudadera-foyone-Yo-No-Soy-Europeo-azul.png","alt":"Sudadera Yo no soy europeo"},"categoria":"Sudadera","id":4
+      },
+      {"title":"CAMISETA YO NO SOY EUROPEO","price":"17","img":{"src":"https://foyone.com/wp-content/uploads/sites/13/2020/12/camiseta-foyone-Yo-No-Soy-Europeo.png","alt":"Camiseta Yo no soy europeo"},"categoria":"Camiseta","id":5
+      },
+      {"title":"CAMISETA FUCK NPO","price":15,"img":{"src":"https://foyone.com/wp-content/uploads/sites/13/2020/12/camiseta-foyone-Yo-No-Soy-Europeo.png","alt":"Camiseta Fuck npo"},"categoria":"Camiseta","id":6
+      },
+      {"title":"SUDADERA FUCK NPO","price":35,"img":{"src":"https://foyone.com/wp-content/uploads/sites/13/2020/12/sudadera-foyone-fuckNPO.png","alt":"Sudadera Fuck npo"},"categoria":"Sudadera","id":7},{"title":"FOYONE – YO NO SOY EUROPEO","price":35,"img":{"src":"https://foyone.com/wp-content/uploads/sites/13/2020/12/cd-foyone-yo-no-soy-europeo-1.png","alt":"Disco"},"categoria":"CD","id":8},{"title":"LÁMINA YO NO SOY EUROPEO","price":15,"img":{"src":"https://foyone.com/wp-content/uploads/sites/13/2021/01/LAMINA-crime-Foyone.png","alt":"Ilustración"},"categoria":"Accesorio","id":9},{"title":"GORRO FOYONE","price":9,"img":{"src":"https://foyone.com/wp-content/uploads/sites/13/2020/12/gorro-foyone-negro.png","alt":"Gorro negro"},"categoria":"Accesorio","id":10},{"title":"CAMISETA P_L_C_A","price":19,"img":{"src":"https://foyone.com/wp-content/uploads/sites/13/2020/06/camiseta-Foyone-policia-blanca.png","alt":"Camiseta P_L_C_A"},"categoria":"Camiseta","id":11},{"title":"SUDADERA EDICIÓN LIMITADA “SARGO”","price":29,"img":{"src":"https://foyone.com/wp-content/uploads/sites/13/2019/12/sargo600.png","alt":"Sudadera Sargo"},"categoria":"Sudadera","id":12},{"title":"CAMISETA DORITOS Y LOL","price":22,"img":{"src":"https://foyone.com/wp-content/uploads/sites/13/2019/12/sargo600.png","alt":"Camiseta doritos y lol"},"categoria":"Camiseta","id":13},{"title":"CAMISETA DORITOS Y LOL","price":22,"img":{"src":"https://foyone.com/wp-content/uploads/sites/13/2020/03/camiseta-foyone-doritos-y-lol.png","alt":"Camiseta doritos y lol"},"categoria":"Camiseta","id":14},{"title":"SUDADERA PRESIDENTE","price":22,"img":{"src":"https://foyone.com/wp-content/uploads/sites/13/2019/11/sudadera-foyone-presidente-front-final.png","alt":"Sudadera presidente"},"categoria":"Sudadera","id":15},{"title":"FOYONE – PRESIDENTE","price":9,"img":{"src":"https://foyone.com/wp-content/uploads/sites/13/2019/11/cd-foyone-presidente-final.png","alt":"Disco Presidente"},"categoria":"Disco","id":16},{"title":"VINILO FOYONE PRESIDENTE","price":29,"img":{"src":"https://foyone.com/wp-content/uploads/sites/13/2020/02/foyone-vinilo.png","alt":"Vinilo Presidente"},"categoria":"Vinilo","id":17
+            }
+          ]
+    },
+  "about": {
+    "info": {
+      "title": "Biografía",
+      "img": {
+        "src": "https://www.raponair.com/wp-content/uploads/2017/09/FOYONE-VOLVER.jpg",
+        "alt": "Graffiti"
+      }
+    },
+    "bio": {
+      "title": "Un poquito más de mí",
+      "text": "En un lugar de la Mancha, de cuyo nombre no quiero acordarme, no ha mucho tiempo que vivía un hidalgo de los de lanza en astillero, adarga antigua, rocín flaco y galgo corredor. \nUna olla de algo más vaca que carnero, salpicón las más noches, duelos y quebrantos los sábados, lantejas los viernes, algún palomino de añadidura los domingos, consumían las tres partes de su hacienda. \nEl resto della concluían sayo de velarte, calzas de velludo para las fiestas, con sus pantuflos de lo mesmo, y los días de entresemana se honraba con su vellorí de lo más fino. \nTenía en su casa una ama que pasaba de los cuarenta, y una sobrina que no llegaba a los veinte, y un mozo de campo y plaza, que así ensillaba el rocín como tomaba la podadera. \nFrisaba la edad de nuestro hidalgo con los cincuenta años; era de complexión recia, seco de carnes, enjuto de rostro, gran madrugador y amigo de la caza. \nQuieren decir que tenía el sobrenombre de Quijada, o Quesada, que en esto hay alguna diferencia en los autores que deste caso escriben; aunque por conjeturas verosímiles se deja entender que se llamaba Quijana. \nPero esto importa poco a nuestro cuento: basta que en la narración dél no se salga un punto de la verdad."
+    }
+  },
+  "contact": {
+    "info": {
+      "title": "Contacto",
+      "img": {
+        "src": "https://www.raponair.com/wp-content/uploads/2017/09/FOYONE-VOLVER.jpg",
+        "alt": "Graffiti"
+      }
+    },
+    "mensajes": []
+  }
+}
+

@@ -1,0 +1,10 @@
+<div class="b-musica">
+    <div class="b-musica__heading"><h2 class="b-musica__title">Lorem ipsum dolores maximos</h2></div>
+   <div class="b-musica__main">
+       <div class="b-musica__card" *ngFor="let objeto of musica?.gallery">
+           <div class="b-musica__linkContain"></div>
+           <a class="b-musica__link" href="{{objeto?.link}}">{{objeto?.alt}}</a>
+           <img class="b-musica__image" src="{{objeto?.src}}" alt="{{objeto?.alt}}">
+       </div>
+   </div>
+</div>

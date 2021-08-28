@@ -1,0 +1,24 @@
+<div class="b-tienda">
+    <div class="b-tienda__heading"><h2>Échame una mano prima</h2></div>
+    <div class="b-tienda__filters">
+        <div class="b-tienda__results"><p>Total de productos: {{this.longitud}}</p></div>
+        <select class="b-tienda__filter" name="filter" id="filter">
+            <option value="poluar">Más populares</option>
+            <option value="low_price">Precio más bajo</option>
+            <option value="high_price">Precio más alto</option>
+            <option value="invers">Orden inverso</option>
+        </select>
+    </div>
+    <div class="b-tienda__main">
+        <div class="b-tienda__card" *ngFor=" let producto of tienda">
+            <div class="b-tienda__imageContain"><img class="b-tienda__image" src="{{producto?.img?.src}}" alt="{{producto?.img?.alt}}"></div>
+            <div class="b-tienda__textos">
+                <div class="b-tienda__textos__tc">
+                    <p class="b-tienda__category">{{producto?.categoria}}</p>
+                    <h3 class="b-tienda__title">{{producto?.title}}</h3>
+                </div>
+                <div class="b-tienda__textos__price"><p class="b-tienda__price">{{producto?.price}} €</p></div>
+            </div>
+        </div>
+    </div>
+</div>

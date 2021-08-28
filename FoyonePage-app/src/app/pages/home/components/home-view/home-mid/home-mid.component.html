@@ -1,0 +1,18 @@
+<div class="b-main">
+    <carousel [counter]="true" [cellWidth]="1200" [cellsToShow]="1" [height]="500" class="carousel">
+        <div  class="carousel-cell" *ngFor="let imagen of hero?.gallery">
+            <img class="carousel-cell__image" src="{{imagen?.src}}" alt="{{imagen?.alt}}">
+        </div>
+    </carousel>
+</div>
+
+
+
+
+
+
+<!-- <div class="b-slider">
+    <div class="b-slide" *ngFor="let imagen of hero?.gallery">
+        <img class="b-slide__image" src="{{imagen?.src}}" alt="{{imagen?.alt}}">
+    </div>
+</div> -->

@@ -1,0 +1,12 @@
+<header class="header">    
+    <div class="menu">
+        <h2 class="menu__title">{{menu?.title}}</h2>
+        <span (click)="changeClass()" class="menu__btn icon-pacman"></span>
+    </div>
+    <div class="falseado"></div>
+    <nav [ngClass]="{'navbar': flag, 'active': !flag}">
+        <ul class="navbar__container">
+            <li class="navbar__link" (click)="changeClass()" [routerLink]="[link.navigate]" *ngFor="let link of menu?.links">{{link.name}}</li>
+        </ul>
+    </nav>
+</header>

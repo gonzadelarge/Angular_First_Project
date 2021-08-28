@@ -1,0 +1,124 @@
+.header {
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.falseado {
+    width: 100%;
+    height: 10vh;
+    z-index: 99998;
+
+    @media (min-width: 650px) {
+        display: none;
+    }
+}
+.menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 30%;
+    padding: 0 30px;
+    height: 10vh;
+    
+    background-color: var(--color-principal-negro);
+
+    @media (max-width: 650px) {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        z-index: 99999;
+    }
+
+    &__title {
+        color: var( --color-principal-blanco);
+    }
+
+    &__btn {
+        font-size: 25px;
+        color: var(--color-principal-amarillo);
+
+        @media (min-width: 650px) {
+            display: none;
+        }
+
+        &:hover {
+            cursor: pointer;
+        }
+    }
+}
+
+.active {
+    position: relative;
+    width: 100%;
+    height: 10vh;
+    padding: 0 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--color-principal-negro);
+    transition: all 1s;
+
+    @media (max-width: 650px) {
+        position: fixed;    
+        top: 0;
+        left: 0px;
+        z-index: 99997;
+        height: 100vh;
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+}
+
+.navbar {
+    position: relative;
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--color-principal-negro);
+    transition: all 1s;
+
+    @media (max-width: 650px) {
+        position: fixed;
+        top: 0;
+        left: -650px;
+        z-index: 1;
+        height: 100vh;
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+
+    &__container {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        @media (max-width: 650px) {
+            height: 60vh;
+            flex-direction: column;
+            justify-content: space-around;
+        }
+    }
+
+    &__link {
+        padding: 10px;
+        list-style: none;
+        width: 15%;
+        text-align: center;
+        color: var(--color-principal-amarillo);
+        cursor: pointer;
+
+        @media (max-width: 650px) {
+            width: 40%;
+        }
+        &:hover {
+            color: var(--color-principal-blanco);
+            background-color: var(--color-principal-gris8);
+        }
+    }
+
+}

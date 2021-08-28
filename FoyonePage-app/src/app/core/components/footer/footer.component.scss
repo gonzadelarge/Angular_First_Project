@@ -1,0 +1,52 @@
+.b-footer {
+    width: 100%;
+    padding: 20px 0;
+    background-color: var(--color-principal-negro);
+
+    &__icons {
+        margin: 20px auto;
+        width: 80%;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+
+        @media(min-width: 650px) {
+            width: 60%;
+        }
+
+        @media(min-width: 950px) {
+            width: 40%;
+        }
+    }
+
+    &__title {
+        color: var(--color-principal-amarillo);
+        text-align: center;
+        font-size: 15px;
+        font-weight: 200;
+        margin: 20px 0;
+    }
+    &__iconBox {
+        width: 20%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 3px;
+        margin: 20px 0;
+
+    }
+
+    &__icon {
+        display: block;
+        color: var(--color-principal-gris6);
+        font-size: 30px;
+
+        @media(min-width: 650px) {
+            font-size: 20px;
+        }
+
+        &:hover {
+            color: var(--color-principal-amarillo);
+        }
+    }
+}

@@ -1,0 +1,33 @@
+<div class="b-contact">
+    <div class="b-contact__heading"><h1 class="b-contact__title">Cúentame algo bonito wey</h1></div>
+    <form class="b-contact__form" (ngSubmit) = "onSubmit()" [formGroup]="userRegisterForm">
+
+        <fieldset class="b-contact__fieldset">
+            <input class="b-contact__input" type="text" id="nombre" formControlName="name" placeholder="Nombre">
+            <div class="b-contact__message" *ngIf="!userRegisterForm.get('name')?.valid && !userRegisterForm.get('name')?.pristine">
+                <p>Tu nombre no es correcto</p>
+            </div>
+        </fieldset>
+        <fieldset class="b-contact__fieldset">
+            <input class="b-contact__input" type="text" id="surname" formControlName="surname" placeholder="Apellido">
+            <div class="b-contact__message" *ngIf="!userRegisterForm.get('surname')?.valid && !userRegisterForm.get('surname')?.pristine">
+                <p>¿Así te apellidas?</p>
+            </div>
+        </fieldset>
+        <fieldset class="b-contact__fieldset">
+            <input class="b-contact__input" type="email" id="email" formControlName="email" placeholder="Correo">
+            <div class="b-contact__message" *ngIf="!userRegisterForm.get('email')?.valid && !userRegisterForm.get('email')?.pristine">
+                <p>Escribe un mail válido haz el favor</p>
+            </div>
+        </fieldset>
+        <fieldset class="b-contact__fieldset special">
+        <textarea class="b-contact__textarea" formControlName="mesage" id="mesage" placeholder="Mensaje"></textarea>
+            <div class="b-contact__message" *ngIf="!userRegisterForm.get('mesage')?.valid && !userRegisterForm.get('mesage')?.pristine">
+                <p>Mínimo algo con sentido</p>
+            </div>
+        </fieldset>
+    
+        <fieldset class="b-contact__fieldset bottom"><button class="b-contact__button" type="submit" [disabled]="!userRegisterForm.valid">Enviar</button></fieldset>
+    
+    </form>
+</div>
